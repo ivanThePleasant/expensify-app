@@ -37,3 +37,9 @@ When creating an expense, application will check the inputted information and va
 Finally, for development purposes, application has a handful of test cases to monitor it's health in case any code has been changed. Test cases can be accessed here src/tests. Testing is performed by Jest, which is built in via create-react-app.
 
 For Heroku deployment application has a basic Express server set up to monitor route requests. In essence, for any route request Express pushes index.html file and AppRouter serves the reuired route afterwards.
+
+!! IMPORTANT !!
+
+Application does not have a database connected, no data is saved and all expenses will be wiped after page reload.
+
+Puropose of this application is demonstration only and hence database connection was not planned from the beginning.
